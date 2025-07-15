@@ -1,0 +1,580 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 616 424.99 628 ] /Subtype /Link /Type /Annot
+>>
+endobj
+6 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMiWkFVX3lxTE00c3E2Zi1lYm84WmhsQWk2SVgyT0lkZjF5dUJtSlVlWTJxSUxwaThBc2NoZ1dBTFRLV3FiYWlDWWtpcWRFR0xQSEVIQlAtdm11eXViOG5NNjM0QdIBX0FVX3lxTE1Mb0JjM05tUXJjRUtMZkR2WjRqUGZqZkVxdkpBUmpkSkQxLTBZcVpJQ0RKbENrdDh3X3V1UXZsS2xoRmZCekczbk9jWjcydVdBVUVFOUdqVmJTbkJpM2lj?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 598.75 146.91 610.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+7 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 528 491.13 540 ] /Subtype /Link /Type /Annot
+>>
+endobj
+8 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNFQ5RVdWMm0wUU1hZFlsU0tfZC0tNDhUbXpCLWpuWEFCVzVWa2d0dWRQeGNxZk5VX2M2LW5jY1hIMHkzMjBDRXRJcXhlNTAwR2RHTm45ZWFqMWR0dHhQRGJQU284UXhqbVdXZ1I2dlFpN2FNVzlQazR0LTZUVHdMYkMwcWVsaV85bnNRQVJEUXRiODFWckFCWWRRMjdFbnQ0NkViVmdvLVFLVjJreXVpUWFqckRoUzZpNGJBYUZURl9SZkNDaERwQldNQU4xcDFuWWtGd0dKa3ZUd0VTdWo2aHN3dVhJY3JJZVlGY9IB8wFBVV95cUxQWXo3eTdkLUZOYl83WGE5OGVFcU5YVS1YRjRHbGJneTR1Z0VUU2lKTWNIX3dXQlA5N3AyclVJc3JsSUY4WmZfdS16X2ttSDA5S2JHZDR2Ti1ZYmxhc0FIdkJTR0dSSVpUSWxYQmtpRFFMa19pS0VhWmZLc09nSExRZXJJcmNmZ2k3MFJGNE8tUzRwVW11ODNMQmt5SVJtNVNKd3ctcVJrQVRpbHVYMEs1c1JJZUhBc0RMU3dIZWdnVU5HMUxnbDRoSlllQnEzQnh0TlV5QUxNejJQTWUwTkNCN052UEFuOVBMVzR0VU1jS0xCNzA?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 498.75 146.91 510.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+9 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 442 241.01 454 ] /Subtype /Link /Type /Annot
+>>
+endobj
+10 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMiekFVX3lxTFBGZTRFb3duQWY2RGJQSUh5RGJTUFNzY3gtVEVNd1g5dFlQNldpUTJUb2ExbTI1UGtvOExnTkNad2RrN3NmNkI4RGNmVkk2TWhEcTJhV2JzVldOWHEwV29fcnRxWkUwV0tCVDdTTWlfLVhlTlVGaENQZWdR?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 424.75 146.91 436.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+11 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 368 357.15 380 ] /Subtype /Link /Type /Annot
+>>
+endobj
+12 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMirAFBVV95cUxQZkg1cTd3Q0R0ZXhJVWhPd0g5d0hBdE85MklMenRGLUVJb21ySWJGcVU4R1h4dVJsdElsTDRYSXFjN2RfcjZ3bWVVQm9nNmRjaUNBdkxoc3BTcG9oS3NCTG92al96Qm9VVFByQUU3V0djNkYzdXMzR2pucmVxMVN4dmIzZjFuR1U4cVdhaG5ZRUpTdV9JNjRZMGJDeDA4NkhkRWtheXhYS2lENTdI?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 350.75 146.91 362.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+13 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 280 428.83 292 ] /Subtype /Link /Type /Annot
+>>
+endobj
+14 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ2dJRXkwczk2cVF6Zk5EcmRjdk9BU25VRUUzS0t1a1VZc2RoUWZGS3hoeHZwQVlSbGk0eDV0Nkp1UV93blZEcjl3TVFmY3JsaDg0d0FPY1JCN1hOajZGU1FQQzQ5SVY3ZG5EaC1zbDRDWG5HS2FfME85bnJFdVdPQVUzYzFwZHNtb0JmVmpXZWhCOVB2UkRpQURueTNWVmh6VE9Kak83RVZxQQ?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 250.75 146.91 262.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+15 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 180 457.98 192 ] /Subtype /Link /Type /Annot
+>>
+endobj
+16 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRHdCajQ1LXN2OURoTzZzd1ZXdE45V184YlhsMEU1OERzYnlwY0lURXhNeUY5dXQtZEVjdklsZERTYVo2dWtnWDdkSThtVVRDRGNqMWotZ2x4YklwWkhnaF9YNldRUzhvUG5OS05BblJBbjQtUm9OdTNabDYxQzdhOGV5ZkZWQUdaM1hMZXJXazNBSlc5dDdKbURPM0J5RVYwb2E5RUEwTHFKbE04NHZ5aWNRSUtpR0VkWHQxdy11amNZc3p5UVl3UkJjR0ladEZlSjdjUFY5c0gtNkEzZmRyV3FWdGMzd9IB6wFBVV95cUxPMzQ1M0o3anoxRTFZVzNRdk5JWTJpaGw2RkcwRW81WUh4b0x6b0dNbzFzRllsRl9KaVZZX0FTSnpkLW5xQUpmZzV5bEtNM1hVYk9lQmZwZl9hVXJneHZVbEg1R0Q5Uzk2ZEJmRU1tS1ppcXFXUTI3Q19MTi1Xem4tSGJ2eUdCNVduYWdfLVZRdVZDMkUwVF9sLVl3eVNnZ01GNm5HbXZ1bTh0cjNMWDVYeXlJQi15ZE4wSGdxLU9HQXBpZVVTUkJLUkIxcTU2dC1nNkhpemQ5Mks3bWRMTDhhdTdoOE0xU3pkR0RJ?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 162.75 146.91 174.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+17 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 92 452.79 104 ] /Subtype /Link /Type /Annot
+>>
+endobj
+18 0 obj
+<<
+/Annots [ 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 
+  15 0 R 16 0 R 17 0 R ] /Contents 67 0 R /MediaBox [ 0 0 612 792 ] /Parent 66 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+19 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWkFNZTU2U0Zmd0ZLTWw1OVFZcl9Ub2RvT0FwU2dSNFNsNGlGLXJtcHlyY05rMWc3MU14U1FBQnljNGJWSVJYMktMXzktVGxqMnkwNC1YQnl0WUd3S0hkYXlGa2RiMVJrX20xOEhncHFjN0FNakR6TzRXcnVCZGlSQi1EbjItdTJHRWtWNlpKc3pjNHNjUHlCLXpMUnJlLURtLWZDTTFfR1kzdWF0akdIVkJqTS1pSGNMWm9lS2YwQV9VUjTSAcgBQVVfeXFMTmFEU3ZkZ2dNMTZjd3F4cjZINTA3SWI4YzJNX3dNcXU2RUxYckdHUVl1REY5cXdnVGRHREN3bDhnckJtdE4zaXFMTmlUZWdTTG5CTmVhUG1BYVZFYXJ0WVJObzMzRUp6UFBuOUJUTmtNbHdMaWJtX3ZBTWV0YWdTeVk1eEFjcm1STG9SYkQ4LUxvbjdaUFFodW9xcUdKQUlEeG9XVGJiZ2x3YlluejhudUhJVEZZTjd0QkRyRUljQjZ2aEFsSUlpd3o?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 702.75 146.91 714.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+20 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 646 303.83 658 ] /Subtype /Link /Type /Annot
+>>
+endobj
+21 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMinwFBVV95cUxNZS1rNTBHU3ZRaHJXcnlrTUhXQVNEaldNTm9xUTd1VnVYVHc4eUdYeTdDNXhTUk9CT0lldF96THo1MmtHUEh2elRvMVRQWGV0ZWdCdWxJalFXTWdTTUxzbEE0NzQtX051MW1Cczd4SVp4bWFjbkZHdnRYTm1GbUhudkpGbl9oQUtPdGZLbF84eHVVaXJhcjBHX1VvNElUNW_SAZ8BQVVfeXFMTWUtazUwR1N2UWhyV3J5a01IV0FTRGpXTU5vcVE3dVZ1WFR3OHlHWHk3QzV4U1JPQk9JZXRfekx6NTJrR1BIdnpUbzFUUFhldGVnQnVsSWpRV01nU01Mc2xBNDc0LV9OdTFtQnM3eElaeG1hY25GR3Z0WE5tRm1IbnZKRm5faEFLT3RmS2xfOHh1VWlyYXIwR19VbzRJVDVv?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 628.75 146.91 640.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+22 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 572 271.03 584 ] /Subtype /Link /Type /Annot
+>>
+endobj
+23 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMikgFBVV95cUxQNE5MYWFMdUJGX2F0aW1BQ05GQkVxUl95NHM4ZVNUdnBXR1dJM2QzajZlWU83TDZyMVVmNkFRSkNQckhFQkQ1Uk9JVWl0TVhvSUUtdFdWdGx2TGNnNkdINU5YaWR3eHFacWNJbm9jb0JBeDZWNU9xMzU5a2VSbDNnQnM4Y2VWd1BwaDd3Y0dHSk4zdw?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 554.75 146.91 566.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+24 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 498 299.36 510 ] /Subtype /Link /Type /Annot
+>>
+endobj
+25 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMikwFBVV95cUxPdmUwYmEzdkd6ZDZkU0FFb2tnZS1TMFVIdl9kUDFncWltX3lDM0J4RWNFX1lxNFNTSENSbXBIMDdLOEE2TEw1aUZESUVweXNxdG14N2gtOU5jLU5xMk9ldjZqWGVBZWlITTBPZnVKTnMyQ2hvQzVqLWFoSkpiZUloWjdMRUhjdkN6emIzSVVDTE11QnM?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 480.75 146.91 492.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+26 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 424 324.37 436 ] /Subtype /Link /Type /Annot
+>>
+endobj
+27 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMifEFVX3lxTE5yRjlPbnluQldjM016ZUZVLXE2RGxXMU5IeTFoNkZ1NDB4MFBTcFNRbllrdnR3TGJydDZEOGJ2SjVZSldwdUY3c01La3dWOU0zX2JlVjlBcWFocVI0bkZ3S0ZORHdMWGttMEVucnktTWd4SEQ0a2htUktOZDHSAYIBQVVfeXFMTkZmV1BCZ18tdUJ4NE1mNkRIa3J5S3l6T2JXMEtDSzRYTXgxMm5MYmk2TEhjTFp1UVhrcDEySWlWU3lZRW94dGc5VllPZ0FWQldWTmpTa0NRT2JGMWlwLWRCbDBicE1mNnFmVEpaOGFhQlRXcF9rOUVzcWlSazNvdzYyZw?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 406.75 146.91 418.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+28 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 336 436.09 348 ] /Subtype /Link /Type /Annot
+>>
+endobj
+29 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTHM2NGJkcmlWSzRGRkhsZEtfMXF3YkRZZlBRVHl3T3B2ZkY5ZFNrZjV3dm43RzFQTW0tT1VPbjVzQjVvendSUkNQaGVveVdxdTBpcnpXTXUwOUNURUhRTkR5ZGN0WUt6S2NoODVGNlVvVTBsZW9LeUptN1FJRXVLWE4zNEk5dkZYM21UVVRfRnlGaDJ2b3hmSGNaeVFFMnhtc1ZxaE9vTUVkZw?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 318.75 146.91 330.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+30 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 248 346.59 260 ] /Subtype /Link /Type /Annot
+>>
+endobj
+31 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRkhDTDM3QU5DTzBNbnExUl81UWJ0NDc1WnoxbVJRblZZaHB0VmV6NG5OemVXNDNsS2NodC0zT25uN1hneEJpQUkxXzZhYWZETjljOWE4MlZVSk9MMER5LUZMMG9HOUR1RUhESDFOUEMyYXFWejNVaTlielRQR0IzdWJ2cndBMEhBNjZVNEloUk9UVzItX1NaV1h5WFZuVWRRVm5ZVDlKRlA1Rjk4UGhRejdkVjRQYXB00gG_AUFVX3lxTE4yQ09iV2lFNEJpakZ2dm1iTHgwRHliOFplRmF1RmJRdlhLaUpiZmZmRnhhSTM0a3pMa0ZuTWVVTkljZVRsTjdRTkpWaUtlVnJBem9WUGt0VVBNUFE1NEgzcmtVTnptOTdvakFxU3k3VjhGSXRzVnFqLWV5WWVEVEJNSjJZUFRDdW5XNVNMWXZ0RHVNbmlXek9xMC1tUjRvbTliRkNXUklGbVNMODR5ZDZxYnRqMG1kYVV5Q0FOWExz?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 230.75 146.91 242.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+32 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 160 471.69 172 ] /Subtype /Link /Type /Annot
+>>
+endobj
+33 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 78 148 130.24 160 ] /Subtype /Link /Type /Annot
+>>
+endobj
+34 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMioAFBVV95cUxQcW0xdlhNVnJLTGlrb1YyRzF3TWVRck5sLVBqem8zUnBXVHRkSHpqRTkzQXNobjdZeU9QMFdtZm5GZVBKRHVieEpZU2Z3RGp3UnFmMW40N3h4Mm5OZUo2cV9VWmtidnFLd3Jua1lyZTZvdVNiT05yRzdmbmVfYlgwQWVnRFhJOXFyZVprbkppYTJ4VFdlYzRaNzgtRzhZMlN00gGmAUFVX3lxTFAyTlh5QkpaaUtKTEkySENFU0lwVjl1YTNZMUhIVHRKQXpvczNyTmlLSTQ0NkNHNDhiNUEtbVVPR0hMZlpwNi1aX2RRUmIzcE1KWHg4cFU1ZnlTb25YZnNFelZMU01SWTF2R0lhRDd2Q0tVYWpNOUUtTmdRLXJ3MklvZDQ4T2U2bU41UXJzWXVBVzljeG8tNHFEeEFJMm1sN3hmb28xdlE?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 130.75 146.91 142.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+35 0 obj
+<<
+/Annots [ 19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 24 0 R 25 0 R 26 0 R 27 0 R 28 0 R 
+  29 0 R 30 0 R 31 0 R 32 0 R 33 0 R 34 0 R ] /Contents 68 0 R /MediaBox [ 0 0 612 792 ] /Parent 66 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+36 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 702 515.55 714 ] /Subtype /Link /Type /Annot
+>>
+endobj
+37 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 78 690 139.7 702 ] /Subtype /Link /Type /Annot
+>>
+endobj
+38 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMilAJBVV95cUxPMnhhTWZZaHZLajc5R0c5dTAxaWxYQXF6T0Q3WThhcS1zbUhxdGNCb3ZoT0k3UGNPSmlFZVZHbnVzRUdyT3ZxOE5WWUpQdmlJeUp3WjBkbkk0UXFMX3hmX0J3eXNuZnlGVXBFUWpvSHZKQXFnSTlRQmxrdEdzeVZ1VnlOWWw5VmlzWkN5U0w1Mkw1R3NpNUpKUEszaDZ1WHFnOEFPaWltRU1aNnprWUExY0g1Ym5FQ0Z3MGZJMko1eF8yTXFhaWhxeDhvblRfdmpfNTc5UGlFdDV4cnFqdGlZeFp0Q3FGRzBMWVp0cTN3SW9kbHJMLTRYOFdEeUNxUE81VlVNNVo3Tll6OHhKLUhYencySy3SAZoCQVVfeXFMT2hsblA3MS1KN2drV2ZFdjBrZkhBWS1OTk03cFdmODY5d05xNUQxY3ZpYTY1UHlwUHpQOTZNdFZCQXJrN0lFM3c3NUY4QUpCY3VDWlhCU2xDY2hpbHJmT1FCNTdIc3IwZ2F5MDlDNUljRTZhZGpvTmhaQlBOT2lkVFpQQUwyM0hnRDJVaFJHNmlGYkM0TEN5WWE0ZThrclZOUWZxR1RqRjAweWloLUdLMnZmMDk4V244TUdMMXBWVkQ1Q2gxVGRHNXNtWUE1cXRGOEhDeTJIS3ZManFnbVRzWVRBN0E4NEZ2aWF0V1ctbXRjRmNCQjJqZ1VxSEFkekZGU0oxRmxIdUZqLU9WN1BZMXZIZmVyV1JjbGxR?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 672.75 146.91 684.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+39 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 602 512.76 614 ] /Subtype /Link /Type /Annot
+>>
+endobj
+40 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 78 590 102.45 602 ] /Subtype /Link /Type /Annot
+>>
+endobj
+41 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMi4wFBVV95cUxQNC1XdEdkSl94NW80dExQSWRfdXRGem9IZXBTLU1DczAtVkc1NG5TUmc5SlhFUjBmaktLLWtfeEZaWU5qWWJ6amkwVGw4SnRxbjRWWnlWQURKc09FM09ocUJKbjBZWldUVXA1TVVtcGVISG4yMWwxYi1BdkVERG5naFpjSmRVU2Q5SHltVzNfZ1hfcVlvc1gzM2xsRVNoNlVTNGcwQWd6bWx3QXhjWVcyY00tcElRWFRHVVhmcjdVWVQwbzkzUXJ1N0RQc08ybzFBdWNJcmdZQ1RWXzBlZFJLYjRaNA?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 572.75 146.91 584.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+42 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 516 309.39 528 ] /Subtype /Link /Type /Annot
+>>
+endobj
+43 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMimAFBVV95cUxNUHE2UTUyemVaNVk1QmVscDFPYzVVNTg0UGxfUGVJTUlHY3YzQzFzQ3gzcThhRFVHcElpRXRwdzR2MG9HZmVMM3B4ZWxRSnRUNHUtNElZQUh2TjA3aTQ0RzIyUl9jdHNwSkVxbWJlV0xUbjVYd2xFWmx3cWhaUU0zazBoZEdiUjVMQ1g3cUJIaXRMbnFndW5jQg?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 498.75 146.91 510.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+44 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 428 346.05 440 ] /Subtype /Link /Type /Annot
+>>
+endobj
+45 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMihAFBVV95cUxQSHlvTU9pRWJDN0xXY21lNjRrbUxteGthUzBtanBNNVhIS0VlMzlJakM3OXdKdTF1bEJRSWdkT0FWWkVzOFB0RXhONEwzNmRKS1M2UkJwTFk3OThvZno2R0JuWnhLaDlyYWpYQUpFdXo5NV8xbmFPT2NwR2s3Y3c4TTBBZEE?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 410.75 146.91 422.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+46 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 340 401.63 352 ] /Subtype /Link /Type /Annot
+>>
+endobj
+47 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMieEFVX3lxTFAtOWRnclExQ19lSEVQX29tRG5GbnAtYkZ3bTdZdFQ4TTFzcnR6Tm1iOXJRN0E1aU82TGNJbWVDaGMwMTBBRU1kSHNtV0NqNUpqVEVvWGdCTkFlRWVKekRPMldLeENWSXg1YnFjbldpTW9qX3AwYmtFUg?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 322.75 146.91 334.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+48 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 266 284.93 278 ] /Subtype /Link /Type /Annot
+>>
+endobj
+49 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMifkFVX3lxTE8wV0FLUHYyRUlKZlBweDFZUmI2UHRpb0RScm84WmZQQU1QRldldkZlSWZyOEpNRE4tUHVwajZjejhxLU5UY2hVYkFud0N0SUpicnpKX0w4Zi11T3M2a29YVlJrNzFTUlc5UDBjaE9IUm1YNElPcVExYmpOWFI4QQ?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 248.75 146.91 260.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+50 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 178 525.79 190 ] /Subtype /Link /Type /Annot
+>>
+endobj
+51 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 78 166 99.68 178 ] /Subtype /Link /Type /Annot
+>>
+endobj
+52 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMitgJBVV95cUxPNGhVbTRJcG5EamxNcmpxb25mekZZcEppNVJVaXRCeTZqMWUzMGNxSXYtWXBuWHU0UjNudkxSLVYwSHdLRkFtcno2a3llVko3TUY2NmpEQkp4VXBheDVrcmNOallLZFgxalRkRG5tZENJZEVqWGxfbTQ4ZDN0V0huM3liTGQwVXBibXgxQkRiUVVIeHc1VmJLYVpwOHlCRjhFbEFFbUx2bWNGU0FUT0s1THNPamVMekMtdVI0NGxVcXZHR2R1R3BSLWd3UU1YSkFaZXZWeHRkNGZRRU9PXzdRNUtVTTV5ZXBpNWdMY25ERHYtMFNRTFp5Z0xHMTN2bW4xcTBCYTMtQ1A2VTUzUVc4UTl3WWtmd3hRU2hoNEVRRk9VZW9RMjBIVUhrNmw4dHVhaWMtQzJ30gG7AkFVX3lxTE1NeDlMdUhoMlRGV3lBbDF0MlZ2LUhYVnZVNkZuSnJrX3RBZnJ1OUoxQmJ2S2EtaGpaYU9YaWZrNEpFQ3ItLVAwS1FXc2FaTGtuNlZUX1FkMjFLcllxeTdUaXR0VkR1WEFiUzBxWUdGSW9oVGJHOGNTV2JSckFmSWVLb3BxbGJqVzBZNzBIeUxROEItS3BtZm9GcEVuQVVrQmdBN2VVMjdwNTlLQ0lIeVBLR3d1MUlHaEtGSXVHWHMwN2pjdEJEbXVHbnNZR1M3aUUxQmo0MzNsNHE0R0tpSHpIeWRWWU12MjJ2Q1Y4WnNlRzRnbTdKTVJPb3RWNkFQckloTTdlcU5tUmk5SnYxSDVTSjhKeG1nVjJwbVlkVGF1WFEzNHMwYmMyY0kyQXYzVzdocFZqc01DWHhISQ?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 148.75 146.91 160.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+53 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 78 490.82 90 ] /Subtype /Link /Type /Annot
+>>
+endobj
+54 0 obj
+<<
+/Annots [ 36 0 R 37 0 R 38 0 R 39 0 R 40 0 R 41 0 R 42 0 R 43 0 R 44 0 R 45 0 R 
+  46 0 R 47 0 R 48 0 R 49 0 R 50 0 R 51 0 R 52 0 R 53 0 R ] /Contents 69 0 R /MediaBox [ 0 0 612 792 ] /Parent 66 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+55 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMiswFBVV95cUxOVThCNk5NS21GT20tbHc1ZmdEMWlLUHhuTllTLWFfVUZNcEJKZXQydWlwNmdJWXRxYTlKOUZHQlUzYy1sanZoVHRvT0M5Z1J0blZwdXN1YkNFQzN5M0xUbnpLWXZPQjJJZjQ2WGRNRjdwLUpEalNIVEktYlN3Tzc3YmJnejBQT3NINThvT3BlaXdSQXFWUVNiODY2TXFuVFdRSVRyMnUwdWh5MVkxQzhTSlM2cw?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 702.75 146.91 714.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+56 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 632 397.17 644 ] /Subtype /Link /Type /Annot
+>>
+endobj
+57 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMiyAFBVV95cUxQS3VFUWV4VDl1OFF0LWhPcVJMek9hRENWRFdEd3B3OW85UEJtY1ZzY3Y4ZTJSRTJHOW5FZGp0UGUweUJucmk1V05sOWI4TERjX0k5WDdWamVDc3pUY0RwWmRhZ083a21ZbHFQVlEyREliRHZBS1V3RXo4WGF1NmlrcEVibjV1LUVuYjRDbHdpV3k3LXJ2aXB1UXBoWnlYTVpBQUEwMldxS1BCY2UwTi1LRDVBVThMWUt0U1c5bkx5am04eDhrMVZQTtIBzgFBVV95cUxNZFFTcnBLU0N2Vy1RdFlTQWFPN1BLY09rVFBGN042LThQY29uaktJRDMta2FMX2JsbGpzdmswTWkxbTRPWVJsRm5jdDBNbFFoTHE1WGl0SXgyUUJTUmVOUGlsT29iZm9HckswZnBybFlXZFNMWHlQbTVzaXFrVFVSZ0JCVi02WndpeE9aUElUd0hZcWV3WlBrTll6X21qb3pxdFpONTRKV1lSTFBHNEVwUmRrb3lFUFpuUXFPYlJseFhndnBZdWNnMVZQV1NuUQ?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 614.75 146.91 626.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+58 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 544 494.47 556 ] /Subtype /Link /Type /Annot
+>>
+endobj
+59 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 78 532 96.9 544 ] /Subtype /Link /Type /Annot
+>>
+endobj
+60 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMipgFBVV95cUxPbUF6eFA1QTFGcjBITmVtX0tEVDRDR0lNS1YwNWNJLV8tSmx4WHBkSjZ6VEQzVEd1MkZydjdXdXFmejlBSGw2VDBHSmNEaXd2TktNTURFWHJ4S3gwcUkwdXRuVFNTX2Q4M0IyR3hRbDZGX1pxdnFOR2U1emlScWVuRWJ1T1RkOVBOV0lRY3l6OXNMWXlTei1OaHRyLThVcnB3RlRzNmZn0gGrAUFVX3lxTE1WdDluZllEUjdrR0tiTzMyQ2pKOExPQUN3M0REQkViOEROTXc3RkxvYXl3a1AzV1lTalIwbDRWV1E1dzZoWmZtMm1md2V5d1BzNGx5bTNwQjg3a3RkdXAzd2sxaGQtV2ctYjBTT3ZlOU1RZE1ONjZkSnlUQXlQcENjS0p0M2JmMVpIR1V2bnIyWUtIT2hFNWNFdUZnNU9ObG82aUd3bTBzLWdxcw?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 514.75 146.91 526.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+61 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (_blank)
+>> /Border [ 0 0 0 ] /Rect [ 84.28 444 436.65 456 ] /Subtype /Link /Type /Annot
+>>
+endobj
+62 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://news.google.com/rss/articles/CBMivgFBVV95cUxOUjlsMnBpbHVhWXdIUFZ3bTM3MGY0dE03TGpZakktdVZHekRQOTJMSFJtYVdZRzM5d05EaXFxQnRZdjFuWFRPZVVMMlBrYkRvYkEtQ0c3Zk5YaWplNVpkYWl0YmRhNmlGWFdYQWNYWFlOS0xWc0w5aHhWTUdLdVVlNnRLdGVPQ195SkZwaEY0cmU2bG5zeFpMb2tvSEwxWDRZNV8zYm5yUkgydktlS1R2SzFkaTNieXN5Znh0cE5n?oc=5)
+>> /Border [ 0 0 0 ] /Rect [ 78 426.75 146.91 438.75 ] /Subtype /Link /Type /Annot
+>>
+endobj
+63 0 obj
+<<
+/Annots [ 55 0 R 56 0 R 57 0 R 58 0 R 59 0 R 60 0 R 61 0 R 62 0 R ] /Contents 70 0 R /MediaBox [ 0 0 612 792 ] /Parent 66 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+64 0 obj
+<<
+/PageMode /UseNone /Pages 66 0 R /Type /Catalog
+>>
+endobj
+65 0 obj
+<<
+/Author (\(anonymous\)) /CreationDate (D:20250715142856+05'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20250715142856+05'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+>>
+endobj
+66 0 obj
+<<
+/Count 4 /Kids [ 18 0 R 35 0 R 54 0 R 63 0 R ] /Type /Pages
+>>
+endobj
+67 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1036
+>>
+stream
+Gau0CgMY_!(r#H;r-->]_."d^G#qeDF^#A,R4:qEE>(^PRY9Bi&T>GA!?toc8kLQY%`U6\a^5GW(EXoP%VGdZ!'YfW5UZaK+F`(#i$Y#u-]]Wc4gWaqmXX;-*-:^+2*Je!8?ie61W*3@OM5"S;S*-QBm\c^nEV1uk6hrD#ltQH\E"#,/YF``[+nuGq!TC$$c*']m9G5[Ic4cQ8'eY(p.%9\$6AB6i->Jt$dTu5\DW*m8O:[J&j`$6OlDLXF9;2'8s(Iq5(V1(L_rkqH"%K>+$m60L'sk"i(k+PE-9LWFMkq/_/MBfHn+6.G]L/Q+K<=NEoD%#>`3^A#Fmm(lTr7bdkk_C[U7b&f:`<H^K1g&"_+#g^WHblEack&`RVNX/:pG?,qrmu.!ao-oXcFCGPpkZm&)B2mjP#Y9+mUb*_j0t(NttAI:Y\iL%dWtF!VI:EVbnI+bt??A'B61F8.)F.'$l[)@YWW8k'JATU\NsZlnNuQl!=1Dk7ua1cp0<4lCPYU>rAFK8#ASY`_/G!]AC1@:XGhQ>C88D<5n!;HXXPQ,n?!Hm)I!WGC<u\7oOA2W5OI-(]D\b5GZ7RGWbB-P;3J3cDORB"0(bCOI,?@Lclp;*=ad5:+NkK&:(.pV`>/'!3.r1nAJ"I2Q@pgHWj&f-@BOj9MsS*3qM`n^mC/-2u?X/h$2[QJ3aN&pjU]JC>t&^(jak=$Nd(A$!"'bsKJ".75O[-\a,gSR(4"k!h_2ZIp47^E%fZeqSdGYALoLQJk_OX@mHhH^^pEmD(M?Bk]271j`_Cl?E"]f:pS%iV_j&Tr$usY=Xf(/HV-.P?*RGBI4@cNFE+\QEUo9Q^$aO$6NI1p$SEacO?2./,i9[;W3V#REuuV0(=m)`J=*A-JG4<!jDl81GLPGlrO+LBHS($'tjKB;AmMf@aSu/<PkqNVLa!-n@VK.)joWfcc;,`A>M+s.T'Ib6c'Y4dtq3]`?C`2_2<_3D0bnQ"<t_;[?1)(d!9+!$IX_^WsB/p4!$4I!7nr$#3'okE:OND.^FX~>endstream
+endobj
+68 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1030
+>>
+stream
+Gau0C8TW?7'Ya<C]E<r)csSlZ`e>if'S^H)&%upZmH6l*QAhUb/\dl)]9oFtZ'0>n'2:<LoIY!D)$KT9ni+YkT#^?],m+oLS,nP&&]ATr&KcEc@b5NnB.sc]HC<oIEm?4sBGmjpU:#9S92P$hqE5%TOJe1WU]bS*80gBPp`%/4r9bZkq<N^Ugr$ZW4,H"g40$\pkK\hOdc_Y`SK^$&M8<0$Vf;2F$GAh'8#Y4_+Qs4d\699JKO]g>#dMIuqWZT]'tb9"1oZSm"B<eK/]TO20_ief;^ci1oL;q7K0P-"1`D/@kf2hIlH(BCh7(.8dbsT(EkS*[o:Zsm=BGq[]m#LHmdOZkVd'7(=)R,4/`.`Xp[$Vf7A?'mKlq5\a4'N#=8Uq0_pE9@`a*WI&22($f]4?Jo_4LPAEN]#==AsEQAU)&(C6p"oif&hArR:D_QDaU0\RIq$n$qU.mdsN^o"T,r.e+NR%sKD0P>``m-3nDKP"Lfk7F,XafN>@.-f4frjA/VbrPft'n"csKa"/TC$+"4QrH,4!Yu!L!dD@nQ!,6Hl20YAXY@ZV0PC-re^NIVEX98;c66e[k#$c!U\7kW);XLg=M*h-=e`7!?H:ZD,qH-8V4&UI^4mg&P0k+mBs#\9N`0jhEJm^23NBZ^%@l"44?l2<T*s,nBQR>]^0:g"OnXfl:+Y(HGNMcLe="3GCII"p)5A@fdQ9EEH;,j+L%TJXUfqC"8iVY3.$'H_$_5_aJgUDla63nfq/rSfCS7[p@W=uMB5JTA0KQ;Fmgj])-=5)P0!n+B?/e6&<8uT<2<JfJ5,,'MgrehI,`gnXl_VP?n=`*9H?#4e-&kR8WJdXX.K%0Z5o9`dqs+l+@\ue0GM9-6o.tkjIXr@dM_l3fWQ_gN[ft>"'-:r@qJ\r0i(jh?Z/8gS\<X:F%iX"92#G89GR+[KHG/(c[4e`7X-Vt^T^+AtXRnt.oF4_GVq:Q7Dp]sdgXEGZa"+`>F"-dbcD1JPX1<fj;`%arZ<fiM>K;fR?,$*lkU4Hbg.2~>endstream
+endobj
+69 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1157
+>>
+stream
+Gau0C?$"aY&:F5UfXJA]RM@::bC,Oi2cdpn>DL[&4*cCuUPP9==FcX1J):?B.ug<CoO/2AU`&A!h!XP]N]oN%q"8:4!%&;,rmccG+A1UJ?AReT2pp<nBDtij@#4g'"nNX&qjS%BNa:07]PI6)\32nGA*,cNkRRmm!RW9bhrIu"^9WeAK-7B8:D)n]+k.Ds.:&p?/D_<DLf>>+eOqZ46)qR#a88^\/OZ2rPm-\RCS[2V&NT!CaSM:f8":r+#ZJ;\Pe&jps8VZ,DD)i\hgE%hUPoc+"m;UY9N<:Uo<q?6+8gL\ark@gGt.]h4+SX>$S;f^k78gNUfF"=Z]oH)XXEaVg0^ueS[NV<IWKIP;q(SN^[K]`1A-fuO%Ug^Ef62bA"a@J&/2)9b#RX<pG+Y\lEir3erGe*Zm]t.-Gh7]r&;6]HmQrE-$/fc;cgmYeg-3n"]D=QMP\DYF(*-nO2K[JpPp!Clb^S`GT694bWUZg2^Ki<>&UIkHJNOqF'gD6i*ktH4\WE6B=`,CL^uOR'(3-$>UkLG;'sH*%0V,=HC!$3`St(j4g"4_2NMBP1M3>1/!F@RPoQ+L!KOH)S8^;IEJ_SAInPX9Y^_Iu$pED2Pr&!9[7jV<\<5@tC?%,sm^m[hL+C(eRY[-.UCe0^`):XM>i8YMV(g#gM^F^k8]Lob-*:?j"N-uAIsBgs(B4[cp;,n#HM]4kT\J\sj_Cu!IG[u>aM[m>Vq9BPY&8^+4&V@YDC_FCY$Vs5$$9->Kti;cUmdWRrIjJe^@`.EnUeQq7KQ@I9l`C8"V>R`*d04:OU:KUJR(PFV`+=Q^Wk\hi;j-)FIY3$?`&jKM236.SdVMM0ij=J.q+5B2c=3$XduHW(&*9u[3u2B`0,B%CWeU!+(suQ-b$:MmgCC'[AaDeD5Q`^%PdXlkB:0(*d]Q/hMa6nfLoIb-1V2$W>5Xs+#hc]$(cX#jVc(LgN,^P'DK['cVr8hXl![#BL6OWJ<99nb#>q5266PTTXjZ<+1qKRin.a'Ho6`T5-tcF#P"U.+o]S0k&6O;@1!B)gf#ZY=Su+:4;#ho&JmGRF,$/a.P[1;\7[SCV,k#G[^d$-laW<8CZ<K-onD;'@)@2W_rn0C;,fG`;*@b;@bZDBNgh8""UMO=fMaQ[_;afG\PXSS~>endstream
+endobj
+70 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 616
+>>
+stream
+Gau0@?Z2Df*.6pJgqt2cUbEo<C&6DRY,sO'C5:<*]f<7t:BiT`62C5\Tum9Z@`t(Y&se!Tmrrt>'>QOOkeHEb==/:m+[?S_8J)Mp+SgiJ`;/NuY<1oKR/<T1CheE+X#%d9$hd-RCb_UX4\BBBgh0A"dT/ue\e/`"h]hlRjIJ_h1?4]2Z\>5s:lYCX^;4W!4PeKT)i%?&8_k-s-n@]B7Y+123n.E(C*Q[aQ/Y""EV"^'/h1Na\[EI;>a4k!NuPn<`FMKl?+*q$>\e_)BZXr47`A&.m5f?'nE,L-4(3*C"S4X"<;.s)#:TL4H"7hI$Z[rUp883R:1#sk6fNQq7^LJ^*m_aBpB#ha7Ef4R_Eg<&.P!sVUbQ`:DQT,60s'(90;<!gX]$pbeY$WoCYUA(8WHEjFj:lagJ9L^o-X+N:4hA5YCr,U<JiXeNL^q(V\0Z]O3;cAD0.TgQMt5<k'W&*+Cb?TXI'Z"ogdsW%oRL+8E=-0jG&fA%cc\'D?TF0APLH91N&iGc,2DFnu]Io%@=*S[72Mp8_I8,<B'7sGb+4>];rASN7ejiB'E&Ip[&;\WNn6MKTQ61]pqRo#3mQ?iY7g>m)%Eu6i*Ao38Xa8/^Mc~>endstream
+endobj
+xref
+0 71
+0000000000 65535 f 
+0000000073 00000 n 
+0000000124 00000 n 
+0000000231 00000 n 
+0000000343 00000 n 
+0000000462 00000 n 
+0000000605 00000 n 
+0000001043 00000 n 
+0000001186 00000 n 
+0000002019 00000 n 
+0000002162 00000 n 
+0000002513 00000 n 
+0000002657 00000 n 
+0000003076 00000 n 
+0000003220 00000 n 
+0000003637 00000 n 
+0000003781 00000 n 
+0000004596 00000 n 
+0000004739 00000 n 
+0000005036 00000 n 
+0000005758 00000 n 
+0000005902 00000 n 
+0000006521 00000 n 
+0000006665 00000 n 
+0000007050 00000 n 
+0000007194 00000 n 
+0000007580 00000 n 
+0000007724 00000 n 
+0000008257 00000 n 
+0000008401 00000 n 
+0000008818 00000 n 
+0000008962 00000 n 
+0000009657 00000 n 
+0000009801 00000 n 
+0000009942 00000 n 
+0000010572 00000 n 
+0000010895 00000 n 
+0000011039 00000 n 
+0000011179 00000 n 
+0000012118 00000 n 
+0000012262 00000 n 
+0000012403 00000 n 
+0000012896 00000 n 
+0000013040 00000 n 
+0000013433 00000 n 
+0000013577 00000 n 
+0000013943 00000 n 
+0000014087 00000 n 
+0000014436 00000 n 
+0000014580 00000 n 
+0000014937 00000 n 
+0000015081 00000 n 
+0000015221 00000 n 
+0000016250 00000 n 
+0000016392 00000 n 
+0000016729 00000 n 
+0000017158 00000 n 
+0000017302 00000 n 
+0000018039 00000 n 
+0000018183 00000 n 
+0000018322 00000 n 
+0000018967 00000 n 
+0000019111 00000 n 
+0000019554 00000 n 
+0000019818 00000 n 
+0000019888 00000 n 
+0000020172 00000 n 
+0000020254 00000 n 
+0000021382 00000 n 
+0000022504 00000 n 
+0000023753 00000 n 
+trailer
+<<
+/ID 
+[<e4d2c96e16e8a33348917a3a0ded8d8f><e4d2c96e16e8a33348917a3a0ded8d8f>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 65 0 R
+/Root 64 0 R
+/Size 71
+>>
+startxref
+24460
+%%EOF

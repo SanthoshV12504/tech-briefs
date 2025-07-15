@@ -1,5 +1,5 @@
 from flask import Flask, send_file
-from datetime import datetime, timedelta
+from datetime import datetime
 import os
 from rss_fetcher import get_tech_articles
 from reportlab.lib.pagesizes import LETTER
@@ -9,17 +9,15 @@ from reportlab.lib.styles import getSampleStyleSheet
 app = Flask(__name__)
 DATE_FILE = "last_updated.txt"
 
-# ✅ Generate PDF filename using yesterday’s date
 def get_pdf_filename():
-    yesterday = datetime.now() - timedelta(days=1)
-    return f"tech_news_{yesterday.strftime('%Y-%m-%d')}.pdf"
+    return f"tech_news_{datetime.now().strftime('%Y-%m-%d')}.pdf"
 
 def generate_pdf(articles, filename):
     doc = SimpleDocTemplate(filename, pagesize=LETTER)
     styles = getSampleStyleSheet()
     story = []
 
-    date_str = filename.replace("tech_news_", "").replace(".pdf", "")
+    date_str = datetime.now().strftime("%Y-%m-%d")
     story.append(Paragraph(f"<b>Daily Tech News - {date_str}</b>", styles["Title"]))
     story.append(Spacer(1, 12))
 
@@ -36,27 +34,24 @@ def generate_pdf(articles, filename):
     doc.build(story)
 
 def check_and_refresh_news():
+    today = datetime.now().strftime("%Y-%m-%d")
     filename = get_pdf_filename()
-    yesterday = datetime.now() - timedelta(days=1)
-    date_str = yesterday.strftime('%Y-%m-%d')
-
-    if not os.path.exists(DATE_FILE) or open(DATE_FILE).read() != date_str or not os.path.exists(filename):
-        print(f"📄 Generating PDF for {date_str}")
+    if not os.path.exists(DATE_FILE) or open(DATE_FILE).read() != today or not os.path.exists(filename):
+        print(f"📄 Generating PDF: {filename}")
         articles = get_tech_articles()
         generate_pdf(articles, filename)
         with open(DATE_FILE, "w") as f:
-            f.write(date_str)
+            f.write(today)
     else:
         print("✅ PDF already up to date.")
 
 @app.route("/")
 def index():
     check_and_refresh_news()
-    yesterday = datetime.now() - timedelta(days=1)
-    yesterday_str = yesterday.strftime('%Y-%m-%d')
+    today = datetime.now().strftime("%Y-%m-%d")
 
     all_files = sorted([f for f in os.listdir(".") if f.startswith("tech_news_") and f.endswith(".pdf")], reverse=True)
-    past_files = [f for f in all_files if not f.endswith(f"{yesterday_str}.pdf")][:7]
+    past_files = [f for f in all_files if not f.endswith(f"{today}.pdf")][:7]
 
     def format_date(file):
         date_str = file.replace("tech_news_", "").replace(".pdf", "")
@@ -73,7 +68,6 @@ def index():
         """
 
     current_year = datetime.now().year
-    display_date = yesterday.strftime("%B %d, %Y")
 
     return f"""
     <html>
@@ -148,14 +142,6 @@ def index():
                 .btn:hover, .past-btn:hover {{
                     background: #16a085;
                 }}
-                .section-divider {{
-                    border: none;
-                    height: 1px;
-                    width: 80%;
-                    margin: 0 auto 40px;
-                    background: linear-gradient(to right, transparent, #666, transparent);
-                    opacity: 0.4;
-                }}
                 .footer {{
                     background: rgba(0, 0, 0, 0.6);
                     backdrop-filter: blur(6px);
@@ -184,12 +170,15 @@ def index():
                     color: #1abc9c;
                     text-decoration: none;
                     font-weight: 500;
-                    transition: color 0.3s;
                     font-size: 14px;
                 }}
                 .footer-links a:hover {{
                     color: #ffffff;
                     text-decoration: underline;
+                }}
+                .footer-badges img {{
+                    margin-left: 8px;
+                    vertical-align: middle;
                 }}
                 .footer-copy {{
                     font-size: 12px;
@@ -206,9 +195,9 @@ def index():
 
             <section class="section">
                 <div class="glass">
-                    <h2>📅 Tech News for {display_date}</h2>
+                    <h2>📅 Tech News for {datetime.strptime(today, "%Y-%m-%d").strftime("%B %d, %Y")}</h2>
                     <p>Your daily digest of trending technology news.</p>
-                    <a href="/download" class="btn">Download PDF</a>
+                    <a href="/download" class="btn">Download Today’s PDF</a>
                 </div>
 
                 <div class="glass">
@@ -219,11 +208,18 @@ def index():
 
             <div class="footer">
                 <div class="footer-inner">
-                    <p class="footer-tagline">Made with ❤️ by <strong>Santhosh</strong> — Tech Enthusiast & Python Developer</p>
+                    <p class="footer-tagline">
+                        Made with <strong>Flask</strong> by <strong>Santhosh</strong> — Python Developer
+                    </p>
                     <div class="footer-links">
                         <a href="mailto:santhoshv12504@gmail.com">📧 Email</a>
                         <a href="https://www.linkedin.com/in/santhoshv12504/" target="_blank">🔗 LinkedIn</a>
                         <a href="tel:+916382866340">📞 Call</a>
+                    </div>
+                    <div class="footer-badges" style="margin-top: 10px;">
+                        Built with:
+                        <img src="https://img.shields.io/badge/Flask-2.3-blue.svg" height="20">
+                        <img src="https://img.shields.io/badge/Render-Hosted-brightgreen.svg" height="20">
                     </div>
                     <p class="footer-copy">© {current_year} Santhosh. All rights reserved.</p>
                 </div>

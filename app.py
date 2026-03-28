@@ -7,10 +7,10 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet
 
 app = Flask(__name__)
-DATE_FILE = "last_updated.txt"
 
 def get_pdf_filename():
     return f"tech_news_{datetime.now().strftime('%Y-%m-%d')}.pdf"
+
 
 def generate_pdf(articles, filename):
     doc = SimpleDocTemplate(filename, pagesize=LETTER)
@@ -33,24 +33,31 @@ def generate_pdf(articles, filename):
 
     doc.build(story)
 
+
 def check_and_refresh_news():
-    today = datetime.now().strftime("%Y-%m-%d")
     filename = get_pdf_filename()
-    if not os.path.exists(DATE_FILE) or open(DATE_FILE).read() != today or not os.path.exists(filename):
-        print(f"📄 Generating PDF: {filename}")
-        articles = get_tech_articles()
-        generate_pdf(articles, filename)
-        with open(DATE_FILE, "w") as f:
-            f.write(today)
-    else:
-        print("✅ PDF already up to date.")
+
+    # Skip generation if today's PDF already exists
+    if os.path.exists(filename):
+        print("✅ Today's PDF already exists.")
+        return
+
+    print(f"📄 Generating PDF: {filename}")
+    articles = get_tech_articles()
+    generate_pdf(articles, filename)
+
 
 @app.route("/")
 def index():
     check_and_refresh_news()
+
     today = datetime.now().strftime("%Y-%m-%d")
 
-    all_files = sorted([f for f in os.listdir(".") if f.startswith("tech_news_") and f.endswith(".pdf")], reverse=True)
+    all_files = sorted(
+        [f for f in os.listdir(".") if f.startswith("tech_news_") and f.endswith(".pdf")],
+        reverse=True
+    )
+
     past_files = [f for f in all_files if not f.endswith(f"{today}.pdf")][:7]
 
     def format_date(file):
@@ -58,183 +65,58 @@ def index():
         return datetime.strptime(date_str, "%Y-%m-%d").strftime("%B %d, %Y")
 
     past_entries = ""
+
     for file in past_files:
         label = format_date(file)
         past_entries += f"""
-            <div class="past-item">
-                📄 {label}
-                <a href="/download/{file}" class="past-btn">Download</a>
-            </div>
+        <div class="past-item">
+            📄 {label}
+            <a href="/download/{file}" class="past-btn">Download</a>
+        </div>
         """
 
     current_year = datetime.now().year
 
     return f"""
     <html>
-        <head>
-            <title>TechBriefs – Daily Tech News</title>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-            <style>
-                body {{
-                    margin: 0;
-                    padding: 0;
-                    font-family: 'Poppins', sans-serif;
-                    background: #0f0f0f;
-                    color: white;
-                    scroll-behavior: smooth;
-                }}
-                header {{
-                    position: sticky;
-                    top: 0;
-                    background: rgba(0, 0, 0, 0.7);
-                    padding: 15px 25px;
-                    font-size: 22px;
-                    font-weight: 600;
-                    z-index: 100;
-                    text-align: left;
-                    color: #1abc9c;
-                    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
-                }}
-                .section {{
-                    min-height: 100vh;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    padding: 60px 20px;
-                    background: url('https://images.unsplash.com/photo-1548092372-0d1bd40894a3?q=80&w=870&auto=format&fit=crop') no-repeat center center fixed;
-                    background-size: cover;
-                }}
-                .glass {{
-                    background: rgba(0, 0, 0, 0.6);
-                    backdrop-filter: blur(8px);
-                    border-radius: 20px;
-                    padding: 40px;
-                    max-width: 600px;
-                    width: 90%;
-                    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
-                    text-align: center;
-                    margin-bottom: 60px;
-                    animation: fadeIn 1s ease-out;
-                }}
-                .past-item {{
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    margin: 15px 0;
-                    background-color: rgba(255,255,255,0.05);
-                    padding: 10px 15px;
-                    border-radius: 10px;
-                }}
-                h1, h2 {{
-                    margin: 0 0 15px;
-                }}
-                .btn, .past-btn {{
-                    background: #1abc9c;
-                    color: white;
-                    padding: 10px 20px;
-                    border-radius: 30px;
-                    text-decoration: none;
-                    font-weight: 600;
-                    transition: 0.3s;
-                }}
-                .btn:hover, .past-btn:hover {{
-                    background: #16a085;
-                }}
-                .footer {{
-                    background: rgba(0, 0, 0, 0.6);
-                    backdrop-filter: blur(6px);
-                    border-top: 1px solid #333;
-                    padding: 30px 20px;
-                    color: #aaa;
-                    text-align: center;
-                }}
-                .footer-inner {{
-                    max-width: 900px;
-                    margin: auto;
-                }}
-                .footer-tagline {{
-                    margin-bottom: 10px;
-                    font-size: 14px;
-                    color: #ccc;
-                }}
-                .footer-links {{
-                    display: flex;
-                    justify-content: center;
-                    flex-wrap: wrap;
-                    gap: 20px;
-                    margin-bottom: 10px;
-                }}
-                .footer-links a {{
-                    color: #1abc9c;
-                    text-decoration: none;
-                    font-weight: 500;
-                    font-size: 14px;
-                }}
-                .footer-links a:hover {{
-                    color: #ffffff;
-                    text-decoration: underline;
-                }}
-                .footer-badges img {{
-                    margin-left: 8px;
-                    vertical-align: middle;
-                }}
-                .footer-copy {{
-                    font-size: 12px;
-                    color: #777;
-                }}
-                @keyframes fadeIn {{
-                    from {{ opacity: 0; transform: translateY(20px); }}
-                    to {{ opacity: 1; transform: translateY(0); }}
-                }}
-            </style>
-        </head>
-        <body>
-            <header>📰 TechBriefs</header>
+    <head>
+        <title>TechBriefs – Daily Tech News</title>
+    </head>
 
-            <section class="section">
-                <div class="glass">
-                    <h2>📅 Tech News for {datetime.strptime(today, "%Y-%m-%d").strftime("%B %d, %Y")}</h2>
-                    <p>Your daily digest of trending technology news.</p>
-                    <a href="/download" class="btn">Download Today’s PDF</a>
-                </div>
+    <body style="font-family:Poppins;background:#0f0f0f;color:white;text-align:center">
 
-                <div class="glass">
-                    <h2>📚 Past 7 Days</h2>
-                    {past_entries}
-                </div>
-            </section>
+        <h1>📰 TechBriefs</h1>
 
-            <div class="footer">
-                <div class="footer-inner">
-                    <p class="footer-tagline">
-                        Made with <strong>Flask</strong> by <strong>Santhosh</strong> — Python Developer
-                    </p>
-                    <div class="footer-links">
-                        <a href="mailto:santhoshv12504@gmail.com">📧 Email</a>
-                        <a href="https://www.linkedin.com/in/santhoshv12504/" target="_blank">🔗 LinkedIn</a>
-                        <a href="tel:+916382866340">📞 Call</a>
-                    </div>
-                    <div class="footer-badges" style="margin-top: 10px;">
-                        Built with:
-                        <img src="https://img.shields.io/badge/Flask-2.3-blue.svg" height="20">
-                        <img src="https://img.shields.io/badge/Render-Hosted-brightgreen.svg" height="20">
-                    </div>
-                    <p class="footer-copy">© {current_year} Santhosh. All rights reserved.</p>
-                </div>
-            </div>
-        </body>
+        <h2>📅 Tech News for {datetime.strptime(today, "%Y-%m-%d").strftime("%B %d, %Y")}</h2>
+
+        <p>Your daily digest of trending technology news.</p>
+
+        <a href="/download">Download Today's PDF</a>
+
+        <h2>📚 Past 7 Days</h2>
+
+        {past_entries}
+
+        <footer style="margin-top:50px">
+        <p>Made with Flask by <b>Santhosh</b></p>
+        </footer>
+
+    </body>
     </html>
     """
+
 
 @app.route("/download")
 def download():
     return send_file(get_pdf_filename(), as_attachment=True)
 
+
 @app.route("/download/<filename>")
 def download_file(filename):
     return send_file(filename, as_attachment=True)
 
+
+# Render requires this
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)

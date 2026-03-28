@@ -8,6 +8,7 @@ from reportlab.lib.styles import getSampleStyleSheet
 
 app = Flask(__name__)
 
+
 def get_pdf_filename():
     return f"tech_news_{datetime.now().strftime('%Y-%m-%d')}.pdf"
 
@@ -18,6 +19,7 @@ def generate_pdf(articles, filename):
     story = []
 
     date_str = datetime.now().strftime("%Y-%m-%d")
+
     story.append(Paragraph(f"<b>Daily Tech News - {date_str}</b>", styles["Title"]))
     story.append(Spacer(1, 12))
 
@@ -37,19 +39,27 @@ def generate_pdf(articles, filename):
 def check_and_refresh_news():
     filename = get_pdf_filename()
 
-    # Skip generation if today's PDF already exists
     if os.path.exists(filename):
-        print("✅ Today's PDF already exists.")
+        print("✅ Today's PDF already exists")
         return
 
     print(f"📄 Generating PDF: {filename}")
+
     articles = get_tech_articles()
+
+    if not articles:
+        print("⚠ No articles fetched")
+        return
+
     generate_pdf(articles, filename)
+
+
+# Generate PDF once when server starts
+check_and_refresh_news()
 
 
 @app.route("/")
 def index():
-    check_and_refresh_news()
 
     today = datetime.now().strftime("%Y-%m-%d")
 
@@ -68,6 +78,7 @@ def index():
 
     for file in past_files:
         label = format_date(file)
+
         past_entries += f"""
         <div class="past-item">
             📄 {label}
@@ -79,29 +90,80 @@ def index():
 
     return f"""
     <html>
-    <head>
-        <title>TechBriefs – Daily Tech News</title>
-    </head>
+        <head>
+            <title>TechBriefs – Daily Tech News</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <body style="font-family:Poppins;background:#0f0f0f;color:white;text-align:center">
+            <style>
 
-        <h1>📰 TechBriefs</h1>
+                body {{
+                    margin:0;
+                    padding:0;
+                    font-family: Arial;
+                    background:#0f0f0f;
+                    color:white;
+                    text-align:center;
+                }}
 
-        <h2>📅 Tech News for {datetime.strptime(today, "%Y-%m-%d").strftime("%B %d, %Y")}</h2>
+                header {{
+                    background:#111;
+                    padding:20px;
+                    font-size:24px;
+                    color:#1abc9c;
+                }}
 
-        <p>Your daily digest of trending technology news.</p>
+                .container {{
+                    margin-top:50px;
+                }}
 
-        <a href="/download">Download Today's PDF</a>
+                .btn {{
+                    background:#1abc9c;
+                    padding:12px 20px;
+                    border-radius:30px;
+                    text-decoration:none;
+                    color:white;
+                }}
 
-        <h2>📚 Past 7 Days</h2>
+                .past-item {{
+                    margin:10px;
+                }}
 
-        {past_entries}
+                footer {{
+                    margin-top:60px;
+                    color:#aaa;
+                }}
 
-        <footer style="margin-top:50px">
-        <p>Made with Flask by <b>Santhosh</b></p>
-        </footer>
+            </style>
+        </head>
 
-    </body>
+        <body>
+
+            <header>📰 TechBriefs</header>
+
+            <div class="container">
+
+                <h2>📅 Tech News for {datetime.strptime(today,"%Y-%m-%d").strftime("%B %d, %Y")}</h2>
+
+                <p>Your daily digest of trending technology news.</p>
+
+                <a class="btn" href="/download">Download Today's PDF</a>
+
+                <h2 style="margin-top:40px;">📚 Past 7 Days</h2>
+
+                {past_entries}
+
+            </div>
+
+            <footer>
+
+                <p>Made with Flask by <b>Santhosh</b></p>
+
+                <p>© {current_year}</p>
+
+            </footer>
+
+        </body>
+
     </html>
     """
 
@@ -116,7 +178,6 @@ def download_file(filename):
     return send_file(filename, as_attachment=True)
 
 
-# Render requires this
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)

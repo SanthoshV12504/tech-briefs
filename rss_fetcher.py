@@ -2,7 +2,7 @@ import feedparser
 import json
 import os
 
-# ✅ Extended keyword list for wider tech news coverage
+
 KEYWORDS = [
     "ai", "artificial intelligence", "machine learning", "deep learning",
     "openai", "chatgpt", "llm", "nvidia", "intel", "tesla",
@@ -15,7 +15,7 @@ KEYWORDS = [
 MAX_ARTICLES = 25
 SEEN_FILE = "seen_titles.json"
 
-# ✅ RSS feeds
+
 GOOGLE_NEWS_FEEDS = [
     "https://news.google.com/rss/search?q=ai&hl=en-IN&gl=IN&ceid=IN:en",
     "https://news.google.com/rss/search?q=google+ai&hl=en-IN&gl=IN&ceid=IN:en",
@@ -26,19 +26,19 @@ GOOGLE_NEWS_FEEDS = [
 
 TECHCRUNCH_FEED = "https://techcrunch.com/feed/"
 
-# ✅ Load previously used titles
+
 def load_seen_titles():
     if os.path.exists(SEEN_FILE):
         with open(SEEN_FILE, "r", encoding="utf-8") as f:
             return set(json.load(f))
     return set()
 
-# ✅ Save updated seen titles
+
 def save_seen_titles(titles):
     with open(SEEN_FILE, "w", encoding="utf-8") as f:
         json.dump(sorted(list(titles)), f, ensure_ascii=False, indent=2)
 
-# ✅ Filter articles based on keywords and skip seen titles
+
 def filter_articles(entries):
     articles = []
     seen_titles = load_seen_titles()
@@ -50,7 +50,7 @@ def filter_articles(entries):
         content_combined = (title + " " + summary).lower()
 
         if title in seen_titles:
-            continue  # already used in a past PDF
+            continue
 
         if any(keyword in content_combined for keyword in KEYWORDS):
             articles.append({
@@ -67,7 +67,7 @@ def filter_articles(entries):
     save_seen_titles(updated_titles)
     return articles
 
-# ✅ Fetch and filter tech articles
+
 def get_tech_articles():
     all_entries = []
 

@@ -1,9 +1,8 @@
-# scraper.py
 
 import requests
 from datetime import datetime, timedelta
 
-API_KEY = 'e2fcd5d82b674090a26fac7f6b580fd9'  # 🔁 Replace this with your real key
+API_KEY = 'e2fcd5d82b674090a26fac7f6b580fd9'
 
 def get_tech_articles():
     yesterday = datetime.now() - timedelta(days=1)

@@ -188,6 +188,7 @@ def index():
                 box-sizing: border-box;
                 z-index: 1000;
                 border-bottom: 1px solid var(--glass-border);
+                transition: padding 0.3s ease;
             }}
 
             .logo {{
@@ -353,8 +354,16 @@ def index():
             }}
 
             @media (max-width: 768px) {{
-                .main-actions {{ grid-template-columns: 1fr; }}
-                .hero h1 {{ font-size: 38px; }}
+                header {{ padding: 15px 20px; }}
+                .container {{ padding-top: 100px; }}
+                .main-actions {{ grid-template-columns: 1fr; gap: 20px; }}
+                .hero h1 {{ font-size: 32px; }}
+                .hero p {{ font-size: 16px; }}
+                .glass-card {{ padding: 24px; }}
+                .email-form {{ flex-direction: column; }}
+                .email-form input, .email-form .btn {{ width: 100%; box-sizing: border-box; }}
+                .email-form input {{ padding: 12px 20px; margin-bottom: 10px; min-height: 45px; }}
+                .preview-grid {{ grid-template-columns: 1fr; }}
             }}
         </style>
     </head>
@@ -374,8 +383,8 @@ def index():
 
             <div class="main-actions">
                 <div class="glass-card">
-                    <h2>📅 {today_dt.strftime("%B %d, %Y")}</h2>
-                    <p>Your comprehensive daily PDF is ready for generation.</p>
+                    <h2>📰 {today_dt.strftime("%B %d, %Y")}</h2>
+                    <p>Your comprehensive daily PDF is ready for download.</p>
                     <div style="margin-top: 30px;">
                         <a href="/download" class="btn">Download Today’s Briefing</a>
                     </div>

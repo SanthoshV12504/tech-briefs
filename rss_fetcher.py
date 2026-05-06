@@ -19,7 +19,7 @@ MAX_ARTICLES = 15
 SEEN_FILE = "seen_titles.json"
 
 GOOGLE_NEWS_FEEDS = [
-    "https://news.google.com/rss/search?q=ai&hl=en-IN&gl=IN&ceid=IN:en"
+    "https://news.google.com/rss/search?q=ai&hl=en-IN&gl=IN&ceid=IN:en",
     "https://news.google.com/rss/search?q=google+ai&hl=en-IN&gl=IN&ceid=IN:en",
     "https://news.google.com/rss/search?q=microsoft+technology&hl=en-IN&gl=IN&ceid=IN:en",
     "https://news.google.com/rss/search?q=programming&hl=en-IN&gl=IN&ceid=IN:en",

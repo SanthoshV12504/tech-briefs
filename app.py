@@ -103,9 +103,12 @@ check_and_refresh_news()
 @app.route("/")
 def index():
     today_dt = datetime.now()
-    articles = get_tech_articles()
-    
-    previews = articles[:3]
+    previews = []
+    try:
+        articles = get_tech_articles()
+        previews = articles[:3]
+    except Exception as e:
+        print(f"Error fetching articles for preview: {e}")
     
     all_files = sorted([f for f in os.listdir(".") if f.startswith("tech_news_") and f.endswith(".pdf")], reverse=True)
 
@@ -430,7 +433,8 @@ def email_briefing():
         return "Email required", 400
     
     filename = get_pdf_filename()
-    check_and_refresh_news()
+    if not os.path.exists(filename):
+        check_and_refresh_news()
     
     success, message = send_email_with_pdf(recipient, filename)
     if success:
@@ -445,6 +449,9 @@ def email_briefing():
 
 @app.route("/download")
 def download():
+    filename = get_pdf_filename()
+    if not os.path.exists(filename):
+        check_and_refresh_news() 
     return send_file(get_pdf_filename(), as_attachment=True)
 
 

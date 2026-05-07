@@ -85,13 +85,23 @@ def check_and_refresh_news():
 
         articles = get_tech_articles()
 
-        if articles:
+        if len(articles) > 0:
             generate_pdf(articles, filename)
 
             with open(DATE_FILE, "w") as f:
                 f.write(today)
         else:
             print("⚠ No articles fetched")
+
+            articles = [{
+                "title": "No articles found today",
+                "summary": "We couldn't find any relevant tech news articles today. Please check back tomorrow for the latest updates.",
+                "link": "https://techcrunch.com",
+                "content": "RSS feeds returned limited results for today."
+            }]
+            generate_pdf(articles, filename)
+            with open(DATE_FILE, "w") as f:
+                f.write(today)
 
     else:
         print("✅ PDF already up to date.")
@@ -451,7 +461,12 @@ def email_briefing():
 def download():
     filename = get_pdf_filename()
     if not os.path.exists(filename):
-        check_and_refresh_news() 
+        check_and_refresh_news()
+    if not os.path.exists(filename):
+        return """
+        <h1>No PDF Generated</h1>
+        <p>No articles were available today.</p>
+        """, 500 
     return send_file(get_pdf_filename(), as_attachment=True)
 
 

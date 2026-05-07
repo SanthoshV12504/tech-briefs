@@ -15,11 +15,12 @@ KEYWORDS = [
     "python", "java", "javascript", "blockchain", "cloud"
 ]
 
-MAX_ARTICLES = 15
+MAX_ARTICLES = 20
 SEEN_FILE = "seen_titles.json"
 
 GOOGLE_NEWS_FEEDS = [
-    "https://news.google.com/rss/search?q=ai&hl=en-IN&gl=IN&ceid=IN:en"
+    "https://news.google.com/rss/search?q=ai&hl=en-IN&gl=IN&ceid=IN:en",
+    "https://news.google.com/rss/search?q=machine+learning&hl=en-IN&gl=IN&ceid=IN:en"
 ]
 
 TECHCRUNCH_FEED = "https://techcrunch.com/feed/"
@@ -90,7 +91,7 @@ def filter_articles(entries):
         content_combined = (title + " " + summary).lower()
 
         
-        if any(keyword in content_combined for keyword in KEYWORDS):
+        if True:
 
             article = {
                 "title": title,
@@ -136,7 +137,7 @@ def get_tech_articles():
 
                 print(f"Found {len(parsed.entries)} articles")
 
-                all_entries.extend(parsed.entries[:5])
+                all_entries.extend(parsed.entries[:15])
 
             else:
                 print("No entries found")
